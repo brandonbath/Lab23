@@ -1,0 +1,6 @@
+# use # for comments
+# these settings are required to render jsp pages
+# the prefix allows our application to know to look in the folder for our views (which are jsp)
+these settings are required
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp

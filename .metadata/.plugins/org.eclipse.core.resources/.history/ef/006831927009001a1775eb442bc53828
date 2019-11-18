@@ -1,0 +1,18 @@
+package co.grandcircus.gc_coffeelab;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class User {
+
+	String firstName;
+	String lastName;
+	String email;
+	String phoneNumber;
+	String password;
+	
+	public User() {
+		
+	}
+	
+	

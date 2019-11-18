@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringDemo/src/main/webapp/WEB-INF/views/form-page.jsp&apos; to &apos;main-page.jsp&apos;" description="Rename resource &apos;form-page.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/form-page.jsp" name="main-page.jsp" stamp="1573768706699" updateReferences="true"/>
+</session>

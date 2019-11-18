@@ -1,0 +1,5 @@
+package co.grandcircus.gc_coffeelab;
+
+public class HomeController {
+
+}

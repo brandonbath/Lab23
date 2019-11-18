@@ -1,0 +1,16 @@
+package co.gc.SpringDemo;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	//the RequestMapping is how we will call the methods in the Controller classes
+	//they will be called when we navigate to the referenced url in our browser
+	//localhost:8080 is the default server port
+	@RequestMapping("/") //mapping to homepage (/)
+	public ModelAndView home() {
+		//ModelAndView(String viewName, Map<String,?> model, HttpStatus status)
+		//Create a new ModelAndView given a view name, model, and HTTP status.
+		return new ModelAndView("index", "test", "Hi, my name is Brandon!"); //index is the jsp file we created
+	}
+}

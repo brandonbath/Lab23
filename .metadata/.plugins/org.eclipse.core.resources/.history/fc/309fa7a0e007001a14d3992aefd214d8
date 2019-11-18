@@ -1,0 +1,8 @@
+package co.grandcircus.gc_coffeelab;
+
+import org.springframework.stereotype.Controller;
+
+@Controller 
+public class HomeController {
+
+}
